@@ -178,8 +178,16 @@
     display: flex;
 }
 
-.forum-images-img-2{
+.forum-images-img{
+    height: 350px;
+}
+
+.forum-images-img:last-child{
     margin-left: 20px;
+}
+
+.forum-images-img img{
+    height: 100%;
 }
 
 .forum-text{
@@ -407,6 +415,11 @@
 
 .forum-speakers-header{
     margin-bottom: 20px;
+    height: 300px;
+}
+
+.forum-speakers-header img{
+    height: 100%;
 }
 
 .forum-speakers-header img{
@@ -482,6 +495,14 @@
     display: flex;
     align-items: center;
     margin-bottom: 12px;
+}
+
+.info-content-title-img{
+    height: 80px;
+}
+
+.info-content-title-img img{
+    height: 100%;
 }
 
 .info-content-title h6{
@@ -681,10 +702,12 @@
     background: #FFFFFF;
     border: 1px solid #C5D4E0;
     border-radius: 4px;
+    height: 200px;
 }
 
 .forum-partners-inner-element-item img{
     border-radius: 4px;
+    height: 100%;
 }
 
 
@@ -1079,4 +1102,440 @@
 .footer-fourth-registration a i{
     font-size: 16px;
     margin-left: 4px;
+}
+
+
+
+/* media */
+
+@media screen and (max-width: 1300px){
+    .header-settings button:last-child{
+        display: none;
+    }
+
+    .forum-participants{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .banner-info h1{
+        font-size: 42px;
+        line-height: 65px;
+    }
+
+    .banner-info p{
+        display: none;
+    }
+
+    .forum-text h3{
+        display: none;
+    }
+
+    .forum-organizers-item-text p{
+        font-size: 10px;
+    }
+
+    .forum-speakers-title h4{
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .info-title h4{
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .info-content-title{
+        flex-direction: column;
+    }
+
+    .info-content-title h6{
+        margin-left: 0;
+    }
+
+    .forum-program-title h4{
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .forum-partners-title h4{
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .forum-partners-inner-element-suptitle h6{
+        font-size: 28px;
+    }
+
+    .forum-organizers-title h4{
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .forum-price-title h4{
+        font-size: 34px;
+        line-height: 42px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .header-services{
+        display: none;
+    }
+
+    .banner-info h1{
+        font-size: 39px;
+        line-height: 59px;
+        font-weight: 500;
+    }
+
+    .banner-date-info button{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .banner-date-registration button {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .forum-wrapper{
+        flex-direction: column;
+    }
+
+    .forum-images{
+        justify-content: space-around;
+        margin-bottom: 30px;
+    }
+
+    .forum-text{
+        margin-left: 0;
+    }
+
+    .forum-info-item-text span{
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 27px;
+    }
+
+    .forum-speakers{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 830px){
+    .banner-date-info button {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .info{
+        display: none;
+    }
+
+    .forum-info-item-text h6{
+        font-size: 40px;
+        line-height: 64px;
+    }
+
+    .forum-program-content-inner-suptitle h5{
+        font-size: 26px;
+        line-height: 35px;
+    }
+
+    .forum-organizers{
+        display: none;
+    }
+
+    .forum-price-title button i{
+        display: none;
+    }
+
+    .footer-third{
+        display: none;
+    }
+
+    .forum-price-inner-buttons button{
+        padding: 19px 60px;
+        font-weight: 600;
+        font-size: 21px;
+        line-height: 17px;
+    }
+
+    .footer-fourth-registration a{
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .footer-fourth-registration a i{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .forum-partners{
+        display: none;
+    }
+
+    .banner-info h1{
+        font-size: 32px;
+        line-height: 53px;
+        font-weight: 400;
+    }
+
+    .banner-date-info{
+        display: flex;
+    }
+
+    .forum-info-item-text h6{
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .forum-info-item-text span{
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .forum-price-inner-buttons button{
+        padding: 19px 31px;
+    }
+
+    .forum-price-inner-buttons button:last-child{
+        padding: 19px 32px;
+    }
+
+    .forum-price-title h4{
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    .footer-wrapper{
+        justify-content: space-around;
+    }
+
+    .footer-fourth{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .header-title img{
+        display: none;
+    }
+
+    .header-settings button{
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .banner-info h1{
+        font-size: 27px;
+        line-height: 40px;
+    }
+
+    .banner-date-info button:last-child{
+        display: none;
+    }
+
+    .forum-info-item-text span{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .forum{
+        display: none;
+    }
+
+    .forum-program-wrapper{
+        flex-direction: column;
+    }
+
+    .forum-program-title{
+        margin-bottom: 30px;
+    }
+
+    .forum-price-wrapper{
+        flex-direction: column;
+    }
+
+    .forum-price-title button{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 430px){
+    .header-settings button{
+        display: flex;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .header-settings button i{
+        position: relative;
+        top: 2px;
+        font-size: 16px;
+    }
+
+    .banner-date-registration button{
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    .forum-info-block{
+        display: none;
+    }
+
+    .forum-info-block-flex{
+        width: 100%;
+    }
+
+    .forum-program-title h4{
+        font-size: 32px;
+        line-height: 37px;
+    }
+
+    .forum-program-title p{
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .forum-program-content-inner-suptitle h5 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .forum-program-content-inner-suptitle i{
+        font-size: 16px;
+    }
+
+    .forum-program-content-inner-title h6{
+        font-size: 19px;
+    }
+
+    .forum-program-content-inner-items-element span{
+        font-size: 18px;
+    }
+
+    .forum-program-content-inner-items-element p{
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .forum-program-content-inner-items-element p strong{
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .forum-price-title h4{
+        font-size: 28px;
+        line-height: 33px;
+    }
+
+    .forum-price-inner-buttons button{
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 10px;
+    }
+
+    .forum-price-inner-content-body h6{
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 44px;
+    }
+
+    .footer-first{
+        width: 50%;
+    }
+
+    .footer-second{
+        width: 50%;
+    }
+
+    .footer-first-text p{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .header-title p{
+        font-size: 15px;
+    }
+
+    .header-settings button{
+        padding: 16px;
+        line-height: 0px;
+        align-items: center;
+    }
+
+    .header-settings button i{
+        font-size: 14px;
+        top: 0;
+    }
+
+    .forum-program-content-inner-items-element{
+        flex-direction: column;
+    }
+
+    .forum-program-title h4{
+        font-size: 26px;
+        line-height: 29px;
+    }
+
+    .forum-program-title p{
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+    .forum-program-content-inner-suptitle h5{
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .forum-program-content-inner-suptitle i{
+        font-size: 13px;
+    }
+
+    .forum-program-content-inner-title h6{
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+    .forum-program-content-inner-items-element span{
+        font-size: 17px;
+        line-height: 27px;
+    }
+
+    .forum-program-content-inner-items-element p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .forum-program-content-inner-items-element p strong{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .forum-price-inner-buttons button{
+        padding: 13px 18px;
+        line-height: 15px;
+    }
+
+    .forum-price-title h4{
+        font-size: 24px;
+        line-height: 27px;
+    }
+
+    .footer-second{
+        display: none;
+    }
+
+    .footer-first{
+        width: 100%;
+    }
 }
