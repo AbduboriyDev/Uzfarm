@@ -347,8 +347,13 @@
     font-size: 16px;
 }
 
-.forum-participants-item img{
+.forum-participants-item-img{
     margin-bottom: 20px;
+    height: 80px;
+}
+
+.forum-participants-item-img img{
+    height: 100%;
 }
 
 .forum-participants-item p{
@@ -702,7 +707,6 @@
     background: #FFFFFF;
     border: 1px solid #C5D4E0;
     border-radius: 4px;
-    height: 200px;
 }
 
 .forum-partners-inner-element-item img{
